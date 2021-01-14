@@ -1,0 +1,19 @@
+---
+title: "Question 3"
+---
+
+##### (a) There is a csv file called `groceries.csv` in this directory. Read the csv file using `read_csv` from `tidyverse` and store the data frame as `groceries`. The datset shows the prices of some common groceries item in 4 different stores.
+
+
+The table shows the prices of different items in 4 different stores.
+
+
+##### (b) Is the data frame in wide format or long format?
+
+
+
+##### (c) Try to convert it into the other format. Store it as `groceries2`.
+
+
+
+##### (d) Use a randomized block design to analysis the store prices. Is there a store marking up the item prices?

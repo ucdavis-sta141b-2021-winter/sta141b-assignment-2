@@ -1,0 +1,40 @@
+---
+title: "Question 1"
+---
+
+```{r, message = FALSE}
+library(tidyverse)
+library(gapminder)
+# use ?gapminder get the desciption of the dataset `gapminder`
+```
+
+Consider the dataset `gapminder`.
+
+##### (a) Modify the `continent` factor by classifying the Americas' countries into `South America` and `North America`
+    Hint: the following countries are in South America.
+    ```r
+    c("Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Ecuador", "Paraguay", "Peru", "Trinidad and Tobago", "Uruguay", "Venezuela")
+    ```
+    You could use `case_when` function.
+
+
+
+In the following questions, use the dataset modified in (a).
+
+
+
+##### (b) How many countries are there in the dataset? How about for each continent?
+
+
+##### (c) For each year, which country had the largest gdp per capital?
+
+
+##### (d) For each continent, which country experienced the sharpest increment rate in life expectancy from 1997 to 2007?
+
+
+
+##### (e) Focus on the data in year 2007, what are the correlation coefficients between life expectancy and gdp per capital for each continent?
+
+
+
+##### (f) Visualize part (e) by plotting gdp per capital vs life expectancy.

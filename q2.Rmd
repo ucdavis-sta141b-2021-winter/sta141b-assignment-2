@@ -1,0 +1,46 @@
+---
+title: "Question 2"
+---
+
+Consider the `flights` dataset in the package `nycflights13`.
+
+```{r, message = FALSE}
+library(nycflights13)
+library(tidyverse)
+```
+
+
+##### (a) Add a column that is the amount of time gained in the air (`gain = dep_delay - arr_delay`)
+
+
+
+##### (b) Sort part (a) descedingly by the column you just created. Store the result as `flights_gain`.
+
+
+
+##### (c) On average, did flights gain or lose time? (Hint: not average gain, but as percentage of positive gain.)
+
+
+
+##### (d) On average, did flights heading to SeaTac ("SEA") gain or loose time?
+
+
+
+##### (e) Summerize the mean, min and max of the `air_time` column for flights from `JFK` to `SEA`.
+
+
+
+##### (f) In which month was the average departure delay the greatest?
+
+
+
+##### (g) In which airport were the average arrival delays the highest?
+
+
+
+#####  (h) Which city was flown to with the highest average speed?
+
+
+
+##### (i) Create a data frame of the average arrival delay for each destination, then use` left_join` to join on the `airports` dataframe, which has the airport info. (Hint: read the documentation of `airports` for the airport codes.)
+
