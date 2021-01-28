@@ -18,6 +18,6 @@ Instructions
 Visit https://happygitwithr.com/ for tutorials.
 
 
-Points: 5% of the course grade.
+Points: 12% of the course grade.
 Due Date: 1/24/2021 11:59 pm
 
